@@ -1,0 +1,17 @@
+<h1>Oh yeahhhh</h1>
+<%= link_to "Home Page", root_path %>
+
+<%= form_for @dude do |f| %>
+	<!-- <input name> -->
+	<%= f.label :first_name %>
+	<%= f.text_field :first_name %>
+	<br>
+	<%= f.label :middle_name %>
+	<%= f.text_field :middle_name %>
+	<br>
+	<%= f.label :last_name %>
+	<%= f.text_field :last_name %>	
+	<br>
+	<%= f.submit %>
+
+<% end %> 
